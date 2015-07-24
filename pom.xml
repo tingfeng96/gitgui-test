@@ -121,7 +121,7 @@
         <configuration>
           <!-- 添加这行 动态修改web文件 <webDefaultXml>src/main/resources/jetty/webdefault.xml</webDefaultXml>-->
           <webAppSourceDirectory>src/main/webapp</webAppSourceDirectory>
-          <scanIntervalSeconds>3</scanIntervalSeconds>
+          <!--<scanIntervalSeconds>3</scanIntervalSeconds>-->
           <contextPath>/</contextPath>
           <connectors>
             <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
